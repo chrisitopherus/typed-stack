@@ -2,7 +2,7 @@
   "name": "typed-stack",
   "version": "1.0.0",
   "description": "A Javascript/Typescript implementation of the stack data-structure.",
-  "main": "index.js",
+  "main": "./dist/typed-stack",
   "type": "module",
   "scripts": {
     "test:coverage": "jest --coverage --coverageDirectory='coverage'",
