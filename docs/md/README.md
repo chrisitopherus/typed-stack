@@ -1,3 +1,5 @@
+typed-stack / [Exports](modules.md)
+
 # typed-stack
 
 [![Version npm](https://img.shields.io/badge/version-1.0.0-blue.svg?logo=npm)](https://www.npmjs.com/package/typed-stack)
