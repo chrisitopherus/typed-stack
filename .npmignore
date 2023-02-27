@@ -1,0 +1,11 @@
+src
+tsconfig.json
+package-lock.json
+typedoc.json
+jest.config.json
+.gitignore
+.eslintrc.json
+docs
+node_modules
+rollup.config.js
+coverage
