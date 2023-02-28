@@ -113,7 +113,7 @@ stack = new InjectableStack<{names: string[]}>([], deepSimpleClone) // dependenc
 
 #### Defined in
 
-[stack/injectable.stack.ts:51](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/injectable.stack.ts#L51)
+[stack/injectable.stack.ts:51](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/injectable.stack.ts#L51)
 
 ## Properties
 
@@ -125,7 +125,7 @@ Used for cloning the elements on the Stack.
 
 #### Defined in
 
-[stack/injectable.stack.ts:37](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/injectable.stack.ts#L37)
+[stack/injectable.stack.ts:37](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/injectable.stack.ts#L37)
 
 ___
 
@@ -141,7 +141,7 @@ Represents the elements on the Stack.
 
 #### Defined in
 
-[stack/stack.ts:38](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L38)
+[stack/stack.ts:38](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L38)
 
 ## Accessors
 
@@ -161,7 +161,7 @@ Stack.count
 
 #### Defined in
 
-[stack/stack.ts:58](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L58)
+[stack/stack.ts:58](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L58)
 
 ## Methods
 
@@ -183,7 +183,7 @@ Determines if all the elements in the Stack are truthy values.
 
 #### Defined in
 
-[stack/stack.ts:67](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L67)
+[stack/stack.ts:67](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L67)
 
 ___
 
@@ -205,7 +205,7 @@ Determines if at least 1 of the elements in the Stack is a truthy value.
 
 #### Defined in
 
-[stack/stack.ts:81](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L81)
+[stack/stack.ts:81](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L81)
 
 ___
 
@@ -225,7 +225,7 @@ Removes all elements from the Stack.
 
 #### Defined in
 
-[stack/stack.ts:94](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L94)
+[stack/stack.ts:94](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L94)
 
 ___
 
@@ -247,7 +247,7 @@ The stack elements as an array.
 
 #### Defined in
 
-[stack/injectable.stack.ts:61](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/injectable.stack.ts#L61)
+[stack/injectable.stack.ts:61](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/injectable.stack.ts#L61)
 
 ___
 
@@ -275,7 +275,7 @@ Determines whether an element is in the Stack.
 
 #### Defined in
 
-[stack/stack.ts:113](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L113)
+[stack/stack.ts:113](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L113)
 
 ___
 
@@ -301,7 +301,7 @@ Adds items from an iterable to the top of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:122](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L122)
+[stack/stack.ts:122](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L122)
 
 ___
 
@@ -329,7 +329,7 @@ The found element of the Stack or `undefined`.
 
 #### Defined in
 
-[stack/stack.ts:132](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L132)
+[stack/stack.ts:132](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L132)
 
 ___
 
@@ -357,7 +357,7 @@ The found element of the Stack or `undefined`.
 
 #### Defined in
 
-[stack/stack.ts:148](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L148)
+[stack/stack.ts:148](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L148)
 
 ___
 
@@ -383,7 +383,7 @@ Calls the specified calbback for each element in the Stack.
 
 #### Defined in
 
-[stack/stack.ts:164](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L164)
+[stack/stack.ts:164](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L164)
 
 ___
 
@@ -405,7 +405,7 @@ Determines whether the Stack is empty.
 
 #### Defined in
 
-[stack/stack.ts:174](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L174)
+[stack/stack.ts:174](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L174)
 
 ___
 
@@ -439,7 +439,7 @@ After moving down it looks like this:
 
 #### Defined in
 
-[stack/stack.ts:195](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L195)
+[stack/stack.ts:195](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L195)
 
 ___
 
@@ -473,7 +473,7 @@ After moving up it looks like this:
 
 #### Defined in
 
-[stack/stack.ts:216](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L216)
+[stack/stack.ts:216](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L216)
 
 ___
 
@@ -495,7 +495,7 @@ The element at the top of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:226](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L226)
+[stack/stack.ts:226](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L226)
 
 ___
 
@@ -517,7 +517,7 @@ The element removed from the top of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:235](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L235)
+[stack/stack.ts:235](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L235)
 
 ▸ **pop**(`amount`): `T`[]
 
@@ -541,7 +541,7 @@ The element removed from the top of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:242](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L242)
+[stack/stack.ts:242](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L242)
 
 ___
 
@@ -567,7 +567,7 @@ Pushes one or more elements at the top of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:254](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L254)
+[stack/stack.ts:254](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L254)
 
 ___
 
@@ -601,7 +601,7 @@ After rotating it will look like this:
 
 #### Defined in
 
-[stack/stack.ts:274](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L274)
+[stack/stack.ts:274](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L274)
 
 ___
 
@@ -631,7 +631,7 @@ All matched elements of the Stack.
 
 #### Defined in
 
-[stack/stack.ts:286](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L286)
+[stack/stack.ts:286](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L286)
 
 ___
 
@@ -655,7 +655,7 @@ Uses the `Fisher–Yates shuffle` internally.
 
 #### Defined in
 
-[stack/stack.ts:305](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L305)
+[stack/stack.ts:305](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L305)
 
 ___
 
@@ -689,7 +689,7 @@ After swapping it will look like this:
 
 #### Defined in
 
-[stack/stack.ts:328](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/stack.ts#L328)
+[stack/stack.ts:328](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/stack.ts#L328)
 
 ___
 
@@ -711,4 +711,4 @@ An array with the cloned elements from the Stack.
 
 #### Defined in
 
-[stack/injectable.stack.ts:65](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/stack/injectable.stack.ts#L65)
+[stack/injectable.stack.ts:65](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/stack/injectable.stack.ts#L65)
