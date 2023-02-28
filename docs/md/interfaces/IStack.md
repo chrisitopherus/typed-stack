@@ -2,6 +2,8 @@
 
 # Interface: IStack<T\>
 
+Represents a Stack.
+
 ## Type parameters
 
 | Name |
@@ -61,7 +63,7 @@ Gets the number of elements contained in the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:19](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L19)
+[types/interfaces.ts:25](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L25)
 
 ## Methods
 
@@ -77,7 +79,7 @@ Determines if all the elements in the Stack are truthy values.
 
 #### Defined in
 
-[types/interfaces.ts:24](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L24)
+[types/interfaces.ts:30](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L30)
 
 ___
 
@@ -93,7 +95,7 @@ Determines if at least 1 of the elements in the Stack is a truthy value.
 
 #### Defined in
 
-[types/interfaces.ts:29](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L29)
+[types/interfaces.ts:35](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L35)
 
 ___
 
@@ -109,7 +111,7 @@ Removes all elements from the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:34](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L34)
+[types/interfaces.ts:40](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L40)
 
 ___
 
@@ -125,7 +127,7 @@ Creates a clone of the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:39](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L39)
+[types/interfaces.ts:45](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L45)
 
 ___
 
@@ -147,7 +149,7 @@ Determines whether an element is in the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:45](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L45)
+[types/interfaces.ts:51](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L51)
 
 ___
 
@@ -169,7 +171,7 @@ Adds items from an iterable to the top of the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:50](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L50)
+[types/interfaces.ts:56](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L56)
 
 ___
 
@@ -191,7 +193,7 @@ Returns the first element in the Stack where the predicate is `true`, and `undef
 
 #### Defined in
 
-[types/interfaces.ts:55](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L55)
+[types/interfaces.ts:61](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L61)
 
 ___
 
@@ -213,7 +215,7 @@ Returns the last element in the Stack that satisfies the specified condition.
 
 #### Defined in
 
-[types/interfaces.ts:60](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L60)
+[types/interfaces.ts:66](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L66)
 
 ___
 
@@ -235,7 +237,7 @@ Calls the specified callback function on each element in the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:67](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L67)
+[types/interfaces.ts:73](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L73)
 
 ___
 
@@ -251,7 +253,7 @@ Determines whether the Stack is empty.
 
 #### Defined in
 
-[types/interfaces.ts:72](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L72)
+[types/interfaces.ts:78](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L78)
 
 ___
 
@@ -281,7 +283,7 @@ After moving down it looks like this:
 
 #### Defined in
 
-[types/interfaces.ts:90](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L90)
+[types/interfaces.ts:96](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L96)
 
 ___
 
@@ -311,7 +313,7 @@ After moving up it looks like this:
 
 #### Defined in
 
-[types/interfaces.ts:108](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L108)
+[types/interfaces.ts:114](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L114)
 
 ___
 
@@ -327,7 +329,7 @@ Returns the element at the top of the Stack without removing it.
 
 #### Defined in
 
-[types/interfaces.ts:113](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L113)
+[types/interfaces.ts:119](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L119)
 
 ___
 
@@ -349,7 +351,7 @@ Removes and returns the element at the top of the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:118](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L118)
+[types/interfaces.ts:124](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L124)
 
 ___
 
@@ -371,7 +373,7 @@ Pushes one or more elements at the top of the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:124](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L124)
+[types/interfaces.ts:130](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L130)
 
 ___
 
@@ -401,7 +403,7 @@ After rotating it will look like this:
 
 #### Defined in
 
-[types/interfaces.ts:142](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L142)
+[types/interfaces.ts:148](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L148)
 
 ___
 
@@ -431,7 +433,7 @@ All matched items of the structure.
 
 #### Defined in
 
-[types/interfaces.ts:12](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L12)
+[types/interfaces.ts:15](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L15)
 
 ___
 
@@ -447,7 +449,7 @@ Shuffles the items in the stack randomly
 
 #### Defined in
 
-[types/interfaces.ts:147](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L147)
+[types/interfaces.ts:153](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L153)
 
 ___
 
@@ -477,7 +479,7 @@ After swapping it will look like this:
 
 #### Defined in
 
-[types/interfaces.ts:165](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L165)
+[types/interfaces.ts:171](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L171)
 
 ___
 
@@ -493,4 +495,4 @@ Returns a new array containing the elements of the Stack.
 
 #### Defined in
 
-[types/interfaces.ts:170](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L170)
+[types/interfaces.ts:176](https://github.com/chrisitopherus/typed-stack/blob/9536c2d/src/types/interfaces.ts#L176)

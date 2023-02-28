@@ -121,7 +121,7 @@ const jsConfig = {
 const dtsConfig = {
   ...commonConfig,
   input: {
-    "typed_stack": "./src/index.ts",
+    "typed-stack": "./src/index.ts",
   },
   onwarn: () => {
     //

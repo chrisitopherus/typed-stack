@@ -1,5 +1,8 @@
 import { SearchFn } from "./types";
 
+/**
+ * Represents a structure that can be searched within.
+ */
 export interface ISearchable<T> {
     /**
      * Calls a specified function with every item of the structure.
@@ -12,6 +15,9 @@ export interface ISearchable<T> {
     search(searchFn: SearchFn<T>): T[]
 }
 
+/**
+ * Represents a Stack.
+ */
 export interface IStack<T> extends ISearchable<T> {
     /**
      * Gets the number of elements contained in the Stack.
