@@ -2,6 +2,8 @@
 
 # Interface: ISearchable<T\>
 
+Represents a structure that can be searched within.
+
 ## Type parameters
 
 | Name |
@@ -44,4 +46,4 @@ All matched items of the structure.
 
 #### Defined in
 
-[types/interfaces.ts:12](https://github.com/chrisitopherus/typed-stack/blob/156f02f/src/types/interfaces.ts#L12)
+[types/interfaces.ts:15](https://github.com/chrisitopherus/typed-stack/blob/8622f13/src/types/interfaces.ts#L15)
