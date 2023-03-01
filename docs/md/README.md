@@ -2,7 +2,7 @@ typed-stack / [Exports](modules.md)
 
 # typed-stack
 
-[![Version npm](https://img.shields.io/badge/version-1.0.0-blue.svg?logo=npm)](https://www.npmjs.com/package/typed-stack)
+[![Version npm](https://img.shields.io/badge/version-0.9.0-blue.svg?logo=npm)](https://www.npmjs.com/package/typed-stack)
 
 > Javascript/Typescript implementation of the stack data-structure.
 
