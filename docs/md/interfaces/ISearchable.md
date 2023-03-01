@@ -46,4 +46,4 @@ All matched items of the structure.
 
 #### Defined in
 
-[types/interfaces.ts:15](https://github.com/chrisitopherus/typed-stack/blob/6ab178a/src/types/interfaces.ts#L15)
+[types/interfaces.ts:15](https://github.com/chrisitopherus/typed-stack/blob/2fbc08b/src/types/interfaces.ts#L15)

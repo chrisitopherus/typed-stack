@@ -6,7 +6,7 @@ typed-stack / [Exports](modules.md)
 
 > Javascript/Typescript implementation of the stack data-structure.
 
-## [Homepage](https://github.com/chrisitopherus/simple-stack#readme)
+## [Homepage](https://github.com/chrisitopherus/typed-stack#readme)
 
 ## Author
 
