@@ -146,7 +146,7 @@ export class Stack<T> implements IStack<T> {
      * @returns The found element of the Stack or `undefined`.
      */
     public findLast(predicateFn: (element: T, index: number) => boolean) {
-        let foundElement;
+        let foundElement : T | undefined;
         const start = this.count - 1;
         for (let i = start; i >= 0; i--) {
             const element = this._elements[i];

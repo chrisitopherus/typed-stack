@@ -1,29 +1,22 @@
 {
     "compilerOptions": {
-        "forceConsistentCasingInFileNames": true,
-        "importsNotUsedAsValues": "remove",
-        "noEmit": true,
-        "esModuleInterop": true,
-        "noUnusedLocals": true,
+        "target": "ES2015",
+        "module": "CommonJS",
         "rootDir": "./src",
-        "baseUrl": ".",
-        "outDir": "dist/cjs",
-        "lib": [
-            "dom",
-            "esnext"
-        ],
-        "jsx": "react",
-        "declaration": false,
-        "module": "es2015",
         "moduleResolution": "node",
-        "target": "esnext",
+        "declaration": true,
+        "outDir": "./dist",
+        "noEmitOnError": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
         "strict": true,
-        "noImplicitAny": false,
-        "noUnusedParameters": true,
         "skipLibCheck": true,
-        "isolatedModules": true
     },
     "include": [
-        "src"
+		"./src"
+	],
+    "exclude": [
+        "**/__tests__/*"
     ]
 }
