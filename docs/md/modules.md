@@ -53,7 +53,7 @@ Defines the structure of a clone function.
 
 #### Defined in
 
-[types/types.ts:13](https://github.com/chrisitopherus/typed-stack/blob/fcf0801/src/types/types.ts#L13)
+[types/types.ts:13](https://github.com/chrisitopherus/typed-stack/blob/cbee1e0/src/types/types.ts#L13)
 
 ___
 
@@ -85,7 +85,7 @@ Represents a generic function to be used for searching.
 
 #### Defined in
 
-[types/types.ts:4](https://github.com/chrisitopherus/typed-stack/blob/fcf0801/src/types/types.ts#L4)
+[types/types.ts:4](https://github.com/chrisitopherus/typed-stack/blob/cbee1e0/src/types/types.ts#L4)
 
 ## Functions
 
@@ -125,4 +125,4 @@ The cloned value.
 
 #### Defined in
 
-[utils/deepSimpleClone.ts:21](https://github.com/chrisitopherus/typed-stack/blob/fcf0801/src/utils/deepSimpleClone.ts#L21)
+[utils/deepSimpleClone.ts:21](https://github.com/chrisitopherus/typed-stack/blob/cbee1e0/src/utils/deepSimpleClone.ts#L21)
