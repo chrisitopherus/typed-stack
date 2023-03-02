@@ -1,6 +1,6 @@
 # typed-stack
 
-[![Version npm](https://img.shields.io/badge/version-0.9.2-blue.svg?logo=npm)](https://www.npmjs.com/package/typed-stack)
+[![Version npm](https://img.shields.io/badge/version-0.9.3-blue.svg?logo=npm)](https://www.npmjs.com/package/typed-stack)
 
 > Javascript/Typescript implementation of the stack data-structure.
 
