@@ -1,6 +1,6 @@
 {
   "name": "typed-stack",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A Javascript/Typescript implementation of the stack data-structure.",
   "main": "./dist/index.js",
   "types": "index.d.ts",
